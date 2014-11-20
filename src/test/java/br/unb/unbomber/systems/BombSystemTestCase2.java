@@ -13,12 +13,14 @@
  
 package br.unb.unbomber.systems;
 
-import static junit.framework.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 import java.util.List;
 
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import br.unb.unbomber.component.BombDropper;
@@ -176,7 +178,7 @@ public class BombSystemTestCase2 {
 		}
 		
 		//there shouldn't be an ExplosionStartedEvent in the first 89 turns
-		assertNull(entityManager.getEvents(ExplosionStartedEvent.class));
+		assertTrue(entityManager.getEvents(ExplosionStartedEvent.class).isEmpty());
 		
 	} // end of waitTimeToExplodeTest
 	

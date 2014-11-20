@@ -56,3 +56,4 @@ public class LifeType extends Component {
 	}
 
 }
+
