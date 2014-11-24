@@ -39,7 +39,7 @@ public class GameMatch {
 		//systems.add(new CollisionSystem(entityManager));
 		//systems.add(new ExplosionSystem(entityManager));
 		systems.add(new LifeSystem(entityManager));
-		systems.add(new MovimentSystem(entityManager));
+		//systems.add(new MovimentSystem(entityManager));
 		//systems.add(new PlayerControlSystem(entityManager));
 
 	}
