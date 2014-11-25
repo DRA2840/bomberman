@@ -13,22 +13,18 @@ package br.unb.unbomber.systems;
 
 import java.util.List;
 
-import org.apache.tools.ant.filters.LineContains.Contains;
-
 import br.unb.unbomber.component.CellPlacement;
 import br.unb.unbomber.component.Explosion;
+import br.unb.unbomber.component.PowerUp;
 import br.unb.unbomber.core.BaseSystem;
 import br.unb.unbomber.core.Component;
-import br.unb.unbomber.core.Entity;
 import br.unb.unbomber.core.EntityManager;
 import br.unb.unbomber.core.Event;
 import br.unb.unbomber.event.ActionCommandEvent;
 import br.unb.unbomber.event.ActionCommandEvent.ActionType;
-import br.unb.unbomber.event.BombThrowEvent;
 import br.unb.unbomber.event.CollisionEvent;
 import br.unb.unbomber.event.MovementCommandEvent;
 import br.unb.unbomber.event.MovementCommandEvent.MovementType;
-import br.unb.unbomber.event.MovementMadeEvent;
 
 public class ThrowSystem extends BaseSystem {
 
