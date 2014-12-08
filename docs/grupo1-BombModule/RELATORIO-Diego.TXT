@@ -67,8 +67,31 @@ Num Tarefa   | Tipo Tarefa                     | Descrição da Tarefa
 -------------+---------------------------------+--------------------------------------------------------------------------
  01          | Estudar                         | Est. libGDX
  02          | Codificar                       | Prototipar telas iniciais do jogo
+
+
+# Executado
+
+Data | Horas Trabalhadas    | Num Tarefa   | Comentários
+---------------+------------+--------------+-------------------------------------------------------------------------------------------------------------------------------------
+04/11 (terça)  | 2 horas    | 01           | Entendendo a biblioteca LibGDX na prática
+14/11 (domingo)| 2 horas    | 01           | Entendendo a biblioteca LibGDX na prática
+19/11 (quarta) | 5 horas    | 02           | Criando a inteface grática e personagem 2 para fazer a primeira vesão do menu do jogo
+
+
+## Sprint 4 (de 27/11 a 12/12)
+# Planejado
+
+Num Tarefa   | Tipo Tarefa                     | Descrição da Tarefa
+-------------+---------------------------------+--------------------------------------------------------------------------
+ 01          | Dividir as tarefas do grupo     | Definir o que cada membro do grupo deve fazer, abrindo issues para cada atividade
  
- 
+
+# Executado
+
+Data | Horas Trabalhadas    | Num Tarefa   | Comentários
+---------------+------------+--------------+-------------------------------------------------------------------------------------------------------------------------------------
+08/12 (segunda)| 2 horas    | 01           | No coments
+
 
 
 ## Referências
