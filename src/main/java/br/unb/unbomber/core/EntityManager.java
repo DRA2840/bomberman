@@ -58,6 +58,15 @@ public interface EntityManager {
 	List<Component> getComponents(Class<?> componentType);
 
 	/**
+	 * Get all Component's of the entity 'entityId'. Return null if there is no
+	 * such a component.
+	 *
+	 * @param entityId the entity id
+	 * @return the components
+	 */
+	List<Component> getComponents(int entityId);
+	
+	/**
 	 * Get a Component of 'componentType' associated with 'component' (both from
 	 * the same Entity) if any. Return null if there is no such a component
 	 * associated
