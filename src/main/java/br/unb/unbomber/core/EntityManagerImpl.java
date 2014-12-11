@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
 
 /**
  * A Simple implementation of a Entity Managar. 
@@ -113,24 +111,6 @@ public class EntityManagerImpl implements EntityManager {
 			components.put(componentType, result);
 		}
 		return result;
-	}
-	
-	@Override
-	public List<Component> getComponents(int entityId) {
-		
-		Set<Entry<Class<?>, List<Component>>> resultSet = components.entrySet();
-		
-		List<Component> aux = new ArrayList<Component>();
-		
-		for(Entry<Class<?>, List<Component>> result : resultSet){
-			for(Component comp : result.getValue()){
-				if(comp.getEntityId() == entityId){
-					aux.add(comp);
-				}
-			}
-		}
-		
-		return aux;
 	}
 
 	/* (non-Javadoc)
